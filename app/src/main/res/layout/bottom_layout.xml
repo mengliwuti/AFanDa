@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="笑话大全"
+        android:gravity="center"
+        android:textSize="20.0sp"
+        android:id="@+id/joke_tv"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="名人名言"
+        android:gravity="center"
+        android:textSize="20.0sp"
+        android:id="@+id/celebrity_tv"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="天气查询"
+        android:gravity="center"
+        android:textSize="20.0sp"
+        android:id="@+id/weath_tv"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="星座运势"
+        android:gravity="center"
+        android:textSize="20.0sp"
+        android:id="@+id/constellation_tv"/>
+
+
+</LinearLayout>
